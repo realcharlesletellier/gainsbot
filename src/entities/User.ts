@@ -18,6 +18,9 @@ export class User extends CustomBaseEntity {
 	@Property()
     lastInteract: Date = new Date()
 
+	@Property()
+    weight: number = 0
+
 }
 
 // ===========================================
